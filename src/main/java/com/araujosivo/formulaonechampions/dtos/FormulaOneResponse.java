@@ -8,6 +8,7 @@ public record FormulaOneResponse(
             String constructor,
             Year season,
             Long points,
+            Long wins,
             String car,
             String engine
 ) {
